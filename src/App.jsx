@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Welcome from './components/Welcome';
 import Parent from './components/Parent';
+import TimeColor from './components/TimeColor';
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Welcome name="Bob" style={{ color: "blue" }}/>
       <Welcome name="Scott" style={{ color: "green" }}/>
       <Parent />
+      <TimeColor />
     </>
   )
 }
